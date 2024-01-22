@@ -11,8 +11,13 @@ $(function(){
     // main -nav
     $('.main-nav').hover(function(){
         $('.header-background').slideToggle(200);
-        $('.main-nav a, .logo, .btn-h-line, .ri-global-line, .ri-search-line').toggleClass('black-font');
+        $('.main-nav a, .logo, .btn-h-line, .ri-global-line, .search-icon').toggleClass('black-font');
         $('.searchform, .btn-h-line').stop().toggleClass('black-border');
+    });
+
+    // d-submenu
+    $('.main-nav>li').hover(function(){
+        $(this).find('.d-submenu-main').toggle();
     });
 });
 
