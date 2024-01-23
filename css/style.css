@@ -559,14 +559,14 @@ ul.d-submenu>li:last-child{
 .img::before{
     content: "";
     position: absolute;
-    top:-10px;
-    left:-10px;
+    top:-7px;
+    left:-7px;
     width: 110px;
     height: 110px;
     border-radius: 50%;
     box-sizing: content-box;
-    border: 10px solid transparent;
-    outline: 2px dotted #ddd;
+    border: 7px solid transparent;
+    outline: 2px dotted #eee;
     animation: rolling 25s infinite linear;
 }
 
@@ -590,5 +590,34 @@ ul.d-submenu>li:last-child{
     margin: 0;
     margin-top: 5px;
     font-size: 1.1em;
+    font-weight: 500;
+}
+.card{
+    background: #eee;
+    border-radius: 8px;
+    height: 150px;
+}
+.card-img{
+    display: inline-block;
+    margin: 0 20px 0 30px;
+    background: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.card-img i{
+    font-size:50px;
+    margin-left: 5px;
+    color:#2f5bc1;
+}
+.card-body{
+    width: 60%;
+}
+.card-body h3{
+    margin:0 0 8px 0;
+}
+.card-body p{
+    margin:0;
     font-weight: 500;
 }
